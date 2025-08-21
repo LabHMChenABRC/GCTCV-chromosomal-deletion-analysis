@@ -20,8 +20,8 @@ This pipeline is designed to be run on a High-Performance Computing (HPC) cluste
 2.  **Execution**: Submit the `*.sbatch` script for each step in numerical order. The sbatch script handles job submission and passes the correct parameters to its corresponding `*.one.sh` core script.
 
     ```bash
-    sbatch 1.preprocess/WGS_preprocess.sbatch
-    sbatch 2.mapping/2.2.Mapping_merged_copies/mapping.DHv4.sbatch
+    cd 1.preprocess
+    sbatch WGS_preprocess.sbatch
     # ...and so on for the subsequent steps.
     ```
 
