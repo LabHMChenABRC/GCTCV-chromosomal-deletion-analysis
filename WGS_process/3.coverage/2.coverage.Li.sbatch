@@ -20,7 +20,7 @@ OUTPUT_ROOT_DIR="/ceph/work/abrchmc/tcman/NGS/Banana_PNAS/WGS/Baxijiao-haplotype
 
 # DeepTools parameters
 BIN_SIZE=10000
-MAPQ_VALUES=(0 30 60) 
+MAPQ_VALUES=(0) 
 FLAG_EXCLUDE=2304 # not primary alignment(256); supplementary alignment(2048)
 
 # --- Create logs directory if it doesn't exist ---
