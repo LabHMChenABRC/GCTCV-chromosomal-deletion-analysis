@@ -40,6 +40,7 @@ Prepare raw FASTQ files before alignment.
 - **Scripts**:  
   - Submit script: `WGS_preprocess.sbatch`  
   - Core script: `WGS_preprocess.one.sh`
+  - sample list file: `sample.list` per sample per line
 
 ---
 
