@@ -1,0 +1,16 @@
+chr05	MusaV2	transcript	5957498	5965991	.	+	.	transcript_id "Ma05_t07830.1"; gene_id "Ma05_g07830";
+chr05	MusaV2	exon	5957498	5957986	.	+	.	transcript_id "Ma05_t07830.1"; gene_id "Ma05_g07830";
+chr05	MusaV2	exon	5959933	5959987	.	+	.	transcript_id "Ma05_t07830.1"; gene_id "Ma05_g07830";
+chr05	MusaV2	exon	5960066	5962005	.	+	.	transcript_id "Ma05_t07830.1"; gene_id "Ma05_g07830";
+chr05	MusaV2	exon	5962175	5962333	.	+	.	transcript_id "Ma05_t07830.1"; gene_id "Ma05_g07830";
+chr05	MusaV2	exon	5963148	5963319	.	+	.	transcript_id "Ma05_t07830.1"; gene_id "Ma05_g07830";
+chr05	MusaV2	exon	5963421	5963719	.	+	.	transcript_id "Ma05_t07830.1"; gene_id "Ma05_g07830";
+chr05	MusaV2	exon	5964630	5964940	.	+	.	transcript_id "Ma05_t07830.1"; gene_id "Ma05_g07830";
+chr05	MusaV2	exon	5965932	5965991	.	+	.	transcript_id "Ma05_t07830.1"; gene_id "Ma05_g07830";
+chr05	MusaV2	CDS	5957810	5957986	.	+	0	transcript_id "Ma05_t07830.1"; gene_id "Ma05_g07830";
+chr05	MusaV2	CDS	5959933	5959987	.	+	0	transcript_id "Ma05_t07830.1"; gene_id "Ma05_g07830";
+chr05	MusaV2	CDS	5960066	5962005	.	+	2	transcript_id "Ma05_t07830.1"; gene_id "Ma05_g07830";
+chr05	MusaV2	CDS	5962175	5962333	.	+	0	transcript_id "Ma05_t07830.1"; gene_id "Ma05_g07830";
+chr05	MusaV2	CDS	5963148	5963319	.	+	0	transcript_id "Ma05_t07830.1"; gene_id "Ma05_g07830";
+chr05	MusaV2	CDS	5963421	5963719	.	+	2	transcript_id "Ma05_t07830.1"; gene_id "Ma05_g07830";
+chr05	MusaV2	CDS	5964630	5964932	.	+	0	transcript_id "Ma05_t07830.1"; gene_id "Ma05_g07830";

@@ -1,0 +1,46 @@
+ID SizeMin FileName1 FileName2 Path
+PC-1 100 Nor-4_GTGGCC_R1.fastq.gz Nor-4_GTGGCC_R2.fastq.gz /home/public_tools/NAS/NGS/Banana/Banana/151117-Banana-BC-TC5-subcultural_plantlets-mRNA/mRNA/raw/
+PC-2 100 Nor-5_GTTTCG_R1.fastq.gz Nor-5_GTTTCG_R2.fastq.gz /home/public_tools/NAS/NGS/Banana/Banana/151117-Banana-BC-TC5-subcultural_plantlets-mRNA/mRNA/raw/
+PC-3 100 Nor-6_CGTACG_R1.fastq.gz Nor-6_CGTACG_R2.fastq.gz /home/public_tools/NAS/NGS/Banana/Banana/151117-Banana-BC-TC5-subcultural_plantlets-mRNA/mRNA/raw/
+PC-4 100 729B_PC_1_1.fq.gz 729B_PC_1_2.fq.gz /home/public_tools/NAS/NGS/Banana/Banana/161005-Banana-BC-105-TC5-TC7-subcultural_plantlets-mRNA/mRNA/raw/
+TC4-1 100 B218_3_1.fq.gz B218_3_2.fq.gz /home/public_tools/NAS/NGS/Banana/Banana/170825-Banana-218-subcultural_plantlets-mRNA/mRNA/raw/
+TC4-2 100 B218_9_1.fq.gz B218_9_2.fq.gz /home/public_tools/NAS/NGS/Banana/Banana/170825-Banana-218-subcultural_plantlets-mRNA/mRNA/raw/
+TC4-3 100 B218_13_1.fq.gz B218_13_2.fq.gz /home/public_tools/NAS/NGS/Banana/Banana/170825-Banana-218-subcultural_plantlets-mRNA/mRNA/raw/
+TC5-1 100 729B_TC5_1_1.fq.gz 729B_TC5_1_2.fq.gz /home/public_tools/NAS/NGS/Banana/Banana/161005-Banana-BC-105-TC5-TC7-subcultural_plantlets-mRNA/mRNA/raw/
+TC5-2 100 Tai_5_4_GAGTGG_R1.fastq.gz Tai_5_4_GAGTGG_R2.fastq.gz /home/public_tools/NAS/NGS/Banana/Banana/151117-Banana-BC-TC5-subcultural_plantlets-mRNA/mRNA/raw/
+TC5-3 100 Tai_5_5_ACTGAT_R1.fastq.gz Tai_5_5_ACTGAT_R2.fastq.gz /home/public_tools/NAS/NGS/Banana/Banana/151117-Banana-BC-TC5-subcultural_plantlets-mRNA/mRNA/raw/
+TC5-4 100 Tai_5_6_ATTCCT_R1.fastq.gz Tai_5_6_ATTCCT_R2.fastq.gz /home/public_tools/NAS/NGS/Banana/Banana/151117-Banana-BC-TC5-subcultural_plantlets-mRNA/mRNA/raw/
+PC-1 100 PC-Mixed1_S22_L003_R1_001.fastq.gz PC-Mixed1_S22_L003_R2_001.fastq.gz /home/public_tools/NAS/NGS/Banana/Banana/240308-Banana-PoolingTest_PC-TC5-Hydroponics/mRNA/raw/
+PC-2 100 PC-Mixed1_S23_L003_R1_001.fastq.gz PC-Mixed1_S23_L003_R2_001.fastq.gz /home/public_tools/NAS/NGS/Banana/Banana/240308-Banana-PoolingTest_PC-TC5-Hydroponics/mRNA/raw/
+PC-3 100 PC-Mixed1_S24_L003_R1_001.fastq.gz PC-Mixed1_S24_L003_R2_001.fastq.gz /home/public_tools/NAS/NGS/Banana/Banana/240308-Banana-PoolingTest_PC-TC5-Hydroponics/mRNA/raw/
+PC-4 100 PC-Mixed1_S25_L003_R1_001.fastq.gz PC-Mixed1_S25_L003_R2_001.fastq.gz /home/public_tools/NAS/NGS/Banana/Banana/240308-Banana-PoolingTest_PC-TC5-Hydroponics/mRNA/raw/
+TC5-1 100 TC5-Mixed1_S26_L003_R1_001.fastq.gz TC5-Mixed1_S26_L003_R2_001.fastq.gz /home/public_tools/NAS/NGS/Banana/Banana/240308-Banana-PoolingTest_PC-TC5-Hydroponics/mRNA/raw/
+TC5-2 100 TC5-Mixed1_S27_L003_R1_001.fastq.gz TC5-Mixed1_S27_L003_R2_001.fastq.gz /home/public_tools/NAS/NGS/Banana/Banana/240308-Banana-PoolingTest_PC-TC5-Hydroponics/mRNA/raw/
+TC5-3 100 TC5-Mixed1_S28_L003_R1_001.fastq.gz TC5-Mixed1_S28_L003_R2_001.fastq.gz /home/public_tools/NAS/NGS/Banana/Banana/240308-Banana-PoolingTest_PC-TC5-Hydroponics/mRNA/raw/
+TC5-4 100 TC5-Mixed1_S29_L003_R1_001.fastq.gz TC5-Mixed1_S29_L003_R2_001.fastq.gz/home/public_tools/NAS/NGS/Banana/Banana/240308-Banana-PoolingTest_PC-TC5-Hydroponics/mRNA/raw/
+BX27h1	100
+BX27h2	100
+BX27h3	100
+BX51h1	100
+BX51h2	100
+BX51h3	100
+BXCK27h1 100
+BXCK27h2 100
+BXCK27h3 100
+BXCK51h1 100
+BXCK51h2 100
+BXCK51h3 100
+NK27h1 100
+NK27h2 100
+NK27h3 100
+NK51h1 100
+NK51h2	100
+NK51h3	100
+NKCK27h1 100
+NKCK27h2 100
+NKCK27h3 100
+NKCK51h1 100
+NKCK51h2 100
+NKCK51h3 100
+
+######NK and BX fasta files downloaded from Li et al., BMC Genomics. 2019 
