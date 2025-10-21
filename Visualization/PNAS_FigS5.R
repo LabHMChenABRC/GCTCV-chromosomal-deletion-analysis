@@ -10,6 +10,7 @@
 # ----------------------------
 # Load Libraries
 # ----------------------------
+library(data.table)
 library(ape)
 library(ggtree)
 library(ggplot2)
