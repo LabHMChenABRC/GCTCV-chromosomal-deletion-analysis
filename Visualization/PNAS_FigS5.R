@@ -100,16 +100,10 @@ domains$End <- as.numeric(domains$End)
 # ----------------------------
 # Define Gene Order
 # ----------------------------
-gene_order <- c(
-  "MaACA6", "MaACA3", "MaACA9", "MaACA7", "OsACA12", "OsACA5", "AtACA7", "AtACA2",
-  "OsACA4", "AtACA1", "MaACA11", "MaACA8", "OsACA11", "OsACA10", "OsACA7", "OsACA1",
-  "AtACA11", "AtACA4", "MaACA2", "MaACA1", "MaACA4", "MaACA12", "MaACA13", "OsACA6",
-  "AtACA10", "AtACA8", "AtACA9", "MaACA10", "MaACA5", "OsACA9", "AtACA13", "AtACA12",
-  "MaECA2", "MaECA7", "MaECA4", "MaECA1", "OsECA1", "AtECA04", "AtECA01", "MaECA6",
-  "MaECA3", "AtECA02", "MaECA5", "AtECA03", "AmTrACA"
-)
+gene_order <- as.data.table(tree_plot$data)[order(y)][isTip==TRUE]$label
+gene_order <- sub("\\s+","",gene_order)
 
-domains$Gene <- factor(domains$Gene, levels = rev(gene_order))
+domains$Gene <- factor(domains$Gene, levels = gene_order)
 domains$Domain<-factor(domains$Domain, levels = unique(Accession_IDs))
 # Ensure proper ordering
 domains <- domains[order(match(domains$Gene, levels(domains$Gene))), ]
@@ -121,7 +115,7 @@ domains <- domains[order(match(domains$Gene, levels(domains$Gene))), ]
 protein.seq        <- read.FASTA(protein_file,type = 'AA')
 names(protein.seq) <- sub("\\s+.+$","",names(protein.seq))
 protein.length     <- sapply(protein.seq, length)
-baseline.df        <- data.frame(Gene = factor(gene_order,levels = rev(gene_order)), Start = 0, End = protein.length[gene_order])
+baseline.df        <- data.frame(Gene = factor(gene_order,levels = gene_order), Start = 0, End = protein.length[gene_order])
 
 
 # ----------------------------
